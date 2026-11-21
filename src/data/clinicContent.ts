@@ -1,12 +1,13 @@
 import { ClinicContactInfo, ClinicDictionary, Language } from '../types/clinic';
+import heroClinicImg from '../assets/images/hero_clinic_lounge_clean_1795263680028.jpg';
+import aboutClinicImg from '../assets/images/about_clinic_consultation_1795263664107.jpg';
+import doctorLaylaImg from '../assets/images/doctor_layla_almansoori_1795263663733.jpg';
+import doctorFaisalImg from '../assets/images/doctor_tariq_alhashimi_1795263663810.jpg';
+import doctorNadiaImg from '../assets/images/doctor_nadia_khoury_1795263664547.jpg';
+import doctorOmarImg from '../assets/images/doctor_faisal_alsuwaidi_1795263663730.jpg';
 
-// Serve photos through Netlify Image CDN: resized and converted to WebP/AVIF
-// (roughly 85% smaller than the original JPEGs) for much faster page loads.
-const optimizedImage = (path: string, width: number) =>
-  `/.netlify/images?url=${encodeURIComponent(path)}&w=${width}&q=70`;
-
-export const HERO_IMAGE = optimizedImage('/src/assets/images/hero_clinic_lounge_clean_1795263680028.jpg', 1200);
-export const ABOUT_IMAGE = optimizedImage('/src/assets/images/about_clinic_consultation_1795263664107.jpg', 1000);
+export const HERO_IMAGE = heroClinicImg;
+export const ABOUT_IMAGE = aboutClinicImg;
 
 export const CLINIC_CONTACT: ClinicContactInfo = {
   whatsappDisplay: '+201017238942',
@@ -244,7 +245,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'العربية، الإنجليزية',
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم الأمراض الجلدية في فرع وسط مدينة دبي، يركز على التشخيص الدقيق لمشكلات البشرة والشعر ووضع خطط عناية متوازنة.',
-          image: optimizedImage('/src/assets/images/doctor_layla_almansoori_1795263663733.jpg', 700),
+          image: doctorLaylaImg,
           imageAlt: 'صورة تعريفية لطبيبة قسم الأمراض الجلدية في عيادة النورة الطبية',
         },
         {
@@ -260,7 +261,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'العربية، الإنجليزية',
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم أمراض القلب في فرع جزيرة المارية بأبوظبي، يركز على الفحوصات القلبية الوقائية وإدارة ضغط الدم وصحة الأوعية الدموية.',
-          image: optimizedImage('/src/assets/images/doctor_tariq_alhashimi_1795263663810.jpg', 700),
+          image: doctorFaisalImg,
           imageAlt: 'صورة تعريفية لطبيب قسم أمراض القلب في عيادة النورة الطبية',
         },
         {
@@ -276,7 +277,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'العربية، الإنجليزية',
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم طب الأسنان في فرع دبي مارينا، يركز على العلاجات التحفظية المريحة والنتائج الجمالية الطبيعية لصحة الفم والأسنان.',
-          image: optimizedImage('/src/assets/images/doctor_nadia_khoury_1795263664547.jpg', 700),
+          image: doctorNadiaImg,
           imageAlt: 'صورة تعريفية لطبيبة قسم طب الأسنان في عيادة النورة الطبية',
         },
         {
@@ -292,7 +293,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'العربية، الإنجليزية',
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم طب الأطفال في فرع وسط مدينة دبي، يركز على متابعة النمو والتطور والتواصل الواضح والمطمئن مع الأهل.',
-          image: optimizedImage('/src/assets/images/doctor_faisal_alsuwaidi_1795263663730.jpg', 700),
+          image: doctorOmarImg,
           imageAlt: 'صورة تعريفية لطبيب قسم طب الأطفال في عيادة النورة الطبية',
         },
       ],
@@ -729,7 +730,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Dermatology department at Downtown Dubai, focused on clinical skin assessments and measured restorative care.',
-          image: optimizedImage('/src/assets/images/doctor_layla_almansoori_1795263663733.jpg', 700),
+          image: '/src/assets/images/doctor_layla_almansoori_1795263663733.jpg',
           imageAlt: 'Demonstration portrait for Dermatology at Al Nura Medical Clinic',
         },
         {
@@ -745,7 +746,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Cardiology department at Al Maryah Island, Abu Dhabi, focused on preventive cardiovascular assessments and blood pressure follow-up.',
-          image: optimizedImage('/src/assets/images/doctor_tariq_alhashimi_1795263663810.jpg', 700),
+          image: '/src/assets/images/doctor_tariq_alhashimi_1795263663810.jpg',
           imageAlt: 'Demonstration portrait for Cardiology at Al Nura Medical Clinic',
         },
         {
@@ -761,7 +762,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Dentistry department at Dubai Marina, focused on gentle conservative care and natural-looking dental aesthetics.',
-          image: optimizedImage('/src/assets/images/doctor_nadia_khoury_1795263664547.jpg', 700),
+          image: '/src/assets/images/doctor_nadia_khoury_1795263664547.jpg',
           imageAlt: 'Demonstration portrait for Dentistry at Al Nura Medical Clinic',
         },
         {
@@ -777,7 +778,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Pediatrics department at Downtown Dubai, focused on childhood development checks and reassuring family communication.',
-          image: optimizedImage('/src/assets/images/doctor_faisal_alsuwaidi_1795263663730.jpg', 700),
+          image: '/src/assets/images/doctor_faisal_alsuwaidi_1795263663730.jpg',
           imageAlt: 'Demonstration portrait for Pediatrics at Al Nura Medical Clinic',
         },
       ],
