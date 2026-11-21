@@ -14,20 +14,20 @@ export const CLINIC_CONTACT: ClinicContactInfo = {
   whatsappInternational: '201017238942',
   whatsappBaseUrl: 'https://wa.me/201017238942',
   hotline: '+971 4 800 2568',
-  email: 'care@alnura-clinic.ae',
+  email: 'care@alshifa-clinic.ae',
   emergencyNumber: '998',
 };
 
 export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
   ar: {
     meta: {
-      title: 'عيادة النورة الطبية | رعاية صحية متكاملة في الإمارات',
+      title: 'عيادة الشفاء الطبية | رعاية صحية متكاملة في الإمارات',
       description:
-        'عيادة النورة الطبية — تجربة طبية متكاملة في دولة الإمارات تجمع بين الخبرة الطبية والتقنيات الحديثة والاهتمام الحقيقي براحتك في وسط مدينة دبي ودبي مارينا وجزيرة المارية بأبوظبي.',
+        'عيادة الشفاء الطبية — تجربة طبية متكاملة في دولة الإمارات تجمع بين الخبرة الطبية والتقنيات الحديثة والاهتمام الحقيقي براحتك في وسط مدينة دبي ودبي مارينا وجزيرة المارية بأبوظبي.',
     },
     brand: {
-      name: 'عيادة النورة الطبية',
-      shortName: 'النورة الطبية',
+      name: 'عيادة الشفاء الطبية',
+      shortName: 'الشفاء الطبية',
       tagline: 'رعاية طبية متعددة التخصصات في دولة الإمارات',
     },
     nav: {
@@ -52,7 +52,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       primaryCta: 'احجز موعدك الآن',
       secondaryCta: 'اكتشف خدماتنا',
       trustLine: 'استشارات منظمة · خصوصية تامة للمراجعين · تنسيق مباشر عبر واتساب',
-      imageAlt: 'ردهة استقبال عيادة النورة الطبية بتصميم معماري هادئ وإضاءة طبيعية',
+      imageAlt: 'ردهة استقبال عيادة الشفاء الطبية بتصميم معماري هادئ وإضاءة طبيعية',
       floatingCard: {
         title: 'تنسيق المواعيد عبر واتساب',
         subtitle: 'استفسارات سريعة ومباشرة لاختيار الفرع والتخصص والوقت المناسب',
@@ -85,7 +85,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       kicker: 'التخصصات الطبية',
       heading: 'رعاية متخصصة مصممة لاحتياجاتك الصحية',
       subheading:
-        'تضم عيادة النورة ستة أقسام طبية رئيسية تركز على دقة التشخيص ووضوح الخطة العلاجية في بيئة هادئة.',
+        'تضم عيادة الشفاء ستة أقسام طبية رئيسية تركز على دقة التشخيص ووضوح الخطة العلاجية في بيئة هادئة.',
       exploreCta: 'استكشف التخصص',
       bookSpecialtyCta: 'احجز في هذا التخصص',
       modalServicesHeading: 'نطاق الخدمات والاستشارات',
@@ -189,14 +189,14 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       ],
     },
     about: {
-      kicker: 'فلسفة الرعاية في النورة',
+      kicker: 'فلسفة الرعاية في الشفاء',
       heading: 'طب يضع راحة الإنسان في قلب كل قرار علاجي',
-      lead: 'صُممت عيادة النورة الطبية لتقديم نموذج هادئ للرعاية الصحية في دولة الإمارات، بعيداً عن الازدحام والإجراءات المعقدة.',
+      lead: 'صُممت عيادة الشفاء الطبية لتقديم نموذج هادئ للرعاية الصحية في دولة الإمارات، بعيداً عن الازدحام والإجراءات المعقدة.',
       body: 'نؤمن أن العناية الصحية تبدأ بالإصغاء الهادئ للمراجع، وشرح النتائج والخيارات بوضوح، وتخصيص الوقت الكافي لكل استشارة في مساحات صُممت لاحترام الخصوصية والسكينة.',
       approachTitle: 'منهجنا الطبي',
       approachText:
         'استشارة متأنية، وضوح كامل في التشخيص والخيارات المتاحة، وتنسيق سلس للمواعيد عبر فروعنا في دبي وأبوظبي.',
-      imageAlt: 'استشارة طبية هادئة بين الطبيب والمراجع داخل غرفة استشارة مضاءة طبيعياً في عيادة النورة',
+      imageAlt: 'استشارة طبية هادئة بين الطبيب والمراجع داخل غرفة استشارة مضاءة طبيعياً في عيادة الشفاء',
       stats: [
         {
           value: '01',
@@ -219,7 +219,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       kicker: 'الفريق الطبي',
       heading: 'فريق العيادة التخصصي',
       subheading:
-        'تعرف على التخصصات الطبية الأساسية في عيادة النورة والأطباء المخصصين لكل قسم وفروعهم.',
+        'تعرف على التخصصات الطبية الأساسية في عيادة الشفاء والأطباء المخصصين لكل قسم وفروعهم.',
       demoNotice:
         'ملاحظة: ملفات الأطباء أدناه هي نماذج تعريفية لأغراض العرض؛ تُستكمل المؤهلات المعتمدة وساعات العيادة النهائية عند التشغيل الفعلي.',
       viewProfileCta: 'عرض الملف التعريفي',
@@ -246,7 +246,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم الأمراض الجلدية في فرع وسط مدينة دبي، يركز على التشخيص الدقيق لمشكلات البشرة والشعر ووضع خطط عناية متوازنة.',
           image: doctorLaylaImg,
-          imageAlt: 'صورة تعريفية لطبيبة قسم الأمراض الجلدية في عيادة النورة الطبية',
+          imageAlt: 'صورة تعريفية لطبيبة قسم الأمراض الجلدية في عيادة الشفاء الطبية',
         },
         {
           id: 'dr-faisal',
@@ -262,7 +262,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم أمراض القلب في فرع جزيرة المارية بأبوظبي، يركز على الفحوصات القلبية الوقائية وإدارة ضغط الدم وصحة الأوعية الدموية.',
           image: doctorFaisalImg,
-          imageAlt: 'صورة تعريفية لطبيب قسم أمراض القلب في عيادة النورة الطبية',
+          imageAlt: 'صورة تعريفية لطبيب قسم أمراض القلب في عيادة الشفاء الطبية',
         },
         {
           id: 'dr-nadia',
@@ -278,7 +278,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم طب الأسنان في فرع دبي مارينا، يركز على العلاجات التحفظية المريحة والنتائج الجمالية الطبيعية لصحة الفم والأسنان.',
           image: doctorNadiaImg,
-          imageAlt: 'صورة تعريفية لطبيبة قسم طب الأسنان في عيادة النورة الطبية',
+          imageAlt: 'صورة تعريفية لطبيبة قسم طب الأسنان في عيادة الشفاء الطبية',
         },
         {
           id: 'dr-omar',
@@ -294,12 +294,12 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           availabilityPlaceholder: 'تُحدد أوقات العيادة عند تأكيد جدول الفرع',
           bio: 'نموذج تعريفي لقسم طب الأطفال في فرع وسط مدينة دبي، يركز على متابعة النمو والتطور والتواصل الواضح والمطمئن مع الأهل.',
           image: doctorOmarImg,
-          imageAlt: 'صورة تعريفية لطبيب قسم طب الأطفال في عيادة النورة الطبية',
+          imageAlt: 'صورة تعريفية لطبيب قسم طب الأطفال في عيادة الشفاء الطبية',
         },
       ],
     },
     whyChoose: {
-      kicker: 'لماذا عيادة النورة',
+      kicker: 'لماذا عيادة الشفاء',
       heading: 'معايير تنظيمية واضحة في تجربة مصممة لراحتك',
       subheading:
         'كل تفصيل في عيادتنا يهدف إلى إزالة التوتر المعتاد عن الزيارات الطبية ومنحك تجربة منظمة ومريحة.',
@@ -379,7 +379,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
     testimonials: {
       kicker: 'تجربة المراجعين',
       heading: 'انطباعات توضيحية عن مستوى الرعاية المستهدف',
-      subheading: 'نماذج توضيحية تعكس القيم التي تحرص عيادة النورة على توفيرها في كل زيارة.',
+      subheading: 'نماذج توضيحية تعكس القيم التي تحرص عيادة الشفاء على توفيرها في كل زيارة.',
       demoNotice: 'ملاحظة: النصوص التالية أمثلة توضيحية لتجربة الزيارة وليست تقييمات موثقة من مرضى حقيقيين.',
       prevLabel: 'النموذج السابق',
       nextLabel: 'النموذج التالي',
@@ -420,7 +420,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
     },
     footer: {
       summary:
-        'عيادة النورة الطبية — واجهة تعريفية لتجربة رعاية صحية متعددة التخصصات في وسط مدينة دبي ودبي مارينا وجزيرة المارية بأبوظبي.',
+        'عيادة الشفاء الطبية — واجهة تعريفية لتجربة رعاية صحية متعددة التخصصات في وسط مدينة دبي ودبي مارينا وجزيرة المارية بأبوظبي.',
       quickLinksTitle: 'روابط سريعة',
       contactTitle: 'معلومات التواصل الرسمية',
       hoursTitle: 'ساعات العمل والطوارئ',
@@ -429,7 +429,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       hotlineLabel: 'الخط الساخن:',
       whatsappLabel: 'واتساب الحجوزات:',
       emailLabel: 'البريد الإلكتروني:',
-      copyright: '© 2026 عيادة النورة الطبية. جميع الحقوق محفوظة.',
+      copyright: '© 2026 عيادة الشفاء الطبية. جميع الحقوق محفوظة.',
       demoNotice:
         'تنويه: هذا الموقع تطبيق واجهة أمامية فقط لا يخزن بيانات المرضى؛ تُرسل طلبات المواعيد مباشرة عبر تطبيق واتساب بمبادرة من المستخدم.',
     },
@@ -488,7 +488,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
         doneCta: 'إغلاق والعودة',
       },
       whatsappTemplate: {
-        greeting: 'مرحباً فريق عيادة النورة الطبية،',
+        greeting: 'مرحباً فريق عيادة الشفاء الطبية،',
         intro: 'أرغب في طلب حجز موعد طبي بالتفاصيل التالية:',
         patientLabel: 'الاسم',
         phoneLabel: 'رقم التواصل',
@@ -506,13 +506,13 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
   },
   en: {
     meta: {
-      title: 'Al Nura Medical Clinic | Integrated Healthcare in the UAE',
+      title: 'Al Shifa Medical Clinic | Integrated Healthcare in the UAE',
       description:
-        'Al Nura Medical Clinic provides multi-specialty outpatient healthcare inquiries across Downtown Dubai, Dubai Marina, and Al Maryah Island, Abu Dhabi.',
+        'Al Shifa Medical Clinic provides multi-specialty outpatient healthcare inquiries across Downtown Dubai, Dubai Marina, and Al Maryah Island, Abu Dhabi.',
     },
     brand: {
-      name: 'Al Nura Medical Clinic',
-      shortName: 'Al Nura Clinic',
+      name: 'Al Shifa Medical Clinic',
+      shortName: 'Al Shifa Clinic',
       tagline: 'Multi-specialty outpatient care in the United Arab Emirates',
     },
     nav: {
@@ -537,7 +537,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       primaryCta: 'Book Your Appointment',
       secondaryCta: 'Explore Services',
       trustLine: 'Organized consultations · Patient privacy · Direct WhatsApp coordination',
-      imageAlt: 'Sunlit travertine and oak reception lounge at Al Nura Medical Clinic',
+      imageAlt: 'Sunlit travertine and oak reception lounge at Al Shifa Medical Clinic',
       floatingCard: {
         title: 'Direct WhatsApp Appointment Desk',
         subtitle: 'Prepare your branch, specialty, and date inquiry in seconds',
@@ -676,12 +676,12 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
     about: {
       kicker: 'Our Clinical Philosophy',
       heading: 'Medicine designed around human calm and clinical clarity',
-      lead: 'Al Nura Medical Clinic is envisioned as a calm outpatient environment in the UAE—replacing rushed visits with attentive clinical conversation.',
+      lead: 'Al Shifa Medical Clinic is envisioned as a calm outpatient environment in the UAE—replacing rushed visits with attentive clinical conversation.',
       body: 'We believe healthcare begins with unhurried listening, transparent explanations of your options, and private spaces designed to put visitors at ease across Dubai and Abu Dhabi.',
       approachTitle: 'Our Care Standard',
       approachText:
         'Attentive consultations, clear next steps, and streamlined scheduling across Downtown Dubai, Dubai Marina, and Al Maryah Island.',
-      imageAlt: 'Physician in calm consultation with a patient inside a sunlit suite at Al Nura Medical Clinic',
+      imageAlt: 'Physician in calm consultation with a patient inside a sunlit suite at Al Shifa Medical Clinic',
       stats: [
         {
           value: '01',
@@ -730,8 +730,8 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Dermatology department at Downtown Dubai, focused on clinical skin assessments and measured restorative care.',
-          image: '/src/assets/images/doctor_layla_almansoori_1795263663733.jpg',
-          imageAlt: 'Demonstration portrait for Dermatology at Al Nura Medical Clinic',
+          image: doctorLaylaImg,
+          imageAlt: 'Demonstration portrait for Dermatology at Al Shifa Medical Clinic',
         },
         {
           id: 'dr-faisal',
@@ -746,8 +746,8 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Cardiology department at Al Maryah Island, Abu Dhabi, focused on preventive cardiovascular assessments and blood pressure follow-up.',
-          image: '/src/assets/images/doctor_tariq_alhashimi_1795263663810.jpg',
-          imageAlt: 'Demonstration portrait for Cardiology at Al Nura Medical Clinic',
+          image: doctorFaisalImg,
+          imageAlt: 'Demonstration portrait for Cardiology at Al Shifa Medical Clinic',
         },
         {
           id: 'dr-nadia',
@@ -762,8 +762,8 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Dentistry department at Dubai Marina, focused on gentle conservative care and natural-looking dental aesthetics.',
-          image: '/src/assets/images/doctor_nadia_khoury_1795263664547.jpg',
-          imageAlt: 'Demonstration portrait for Dentistry at Al Nura Medical Clinic',
+          image: doctorNadiaImg,
+          imageAlt: 'Demonstration portrait for Dentistry at Al Shifa Medical Clinic',
         },
         {
           id: 'dr-omar',
@@ -778,13 +778,13 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
           languages: 'Arabic, English',
           availabilityPlaceholder: '[Editable: Branch consultation schedule]',
           bio: 'Demonstration profile for the Pediatrics department at Downtown Dubai, focused on childhood development checks and reassuring family communication.',
-          image: '/src/assets/images/doctor_faisal_alsuwaidi_1795263663730.jpg',
-          imageAlt: 'Demonstration portrait for Pediatrics at Al Nura Medical Clinic',
+          image: doctorOmarImg,
+          imageAlt: 'Demonstration portrait for Pediatrics at Al Shifa Medical Clinic',
         },
       ],
     },
     whyChoose: {
-      kicker: 'Why Choose Al Nura',
+      kicker: 'Why Choose Al Shifa',
       heading: 'Structured clinical organization paired with calm hospitality',
       subheading:
         'Every touchpoint is designed to remove friction from outpatient visits and keep communication clear.',
@@ -865,7 +865,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       kicker: 'Patient Experience',
       heading: 'Illustrative patient experience perspectives',
       subheading:
-        'Example reflections illustrating the standard of calm communication Al Nura aims to uphold.',
+        'Example reflections illustrating the standard of calm communication Al Shifa aims to uphold.',
       demoNotice:
         'Notice: The entries below are illustrative experience examples for showcase purposes, not verified external patient reviews.',
       prevLabel: 'Previous example',
@@ -907,7 +907,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
     },
     footer: {
       summary:
-        'Al Nura Medical Clinic — a frontend outpatient healthcare showcase serving Downtown Dubai, Dubai Marina, and Al Maryah Island, Abu Dhabi.',
+        'Al Shifa Medical Clinic — a frontend outpatient healthcare showcase serving Downtown Dubai, Dubai Marina, and Al Maryah Island, Abu Dhabi.',
       quickLinksTitle: 'Quick Links',
       contactTitle: 'Official Contact Details',
       hoursTitle: 'Hours & Emergency',
@@ -916,7 +916,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
       hotlineLabel: 'Clinic Hotline:',
       whatsappLabel: 'Booking WhatsApp:',
       emailLabel: 'Email:',
-      copyright: '© 2026 Al Nura Medical Clinic. All rights reserved.',
+      copyright: '© 2026 Al Shifa Medical Clinic. All rights reserved.',
       demoNotice:
         'Notice: This is a frontend-only website. No patient information is stored in browser storage or sent to a backend; inquiries are sent directly via WhatsApp by user action.',
     },
@@ -977,7 +977,7 @@ export const CLINIC_CONTENT: Record<Language, ClinicDictionary> = {
         doneCta: 'Close & Return',
       },
       whatsappTemplate: {
-        greeting: 'Hello Al Nura Medical Clinic team,',
+        greeting: 'Hello Al Shifa Medical Clinic team,',
         intro: 'I would like to request an appointment with the following details:',
         patientLabel: 'Name',
         phoneLabel: 'Contact Phone',
